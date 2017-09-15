@@ -1,0 +1,501 @@
+.headerWrap{
+    width:100%;
+    height:60px;
+    border-top:1px solid #b6b4b6;
+    background:url("../images/header-bg.jpg") repeat-x;
+}
+.header{
+    width:1114px;
+    margin:0 auto;
+}
+.header .logo{
+    float:left;
+}
+.header .logo a{
+    display: block;
+    width:200px;
+    height:60px;
+    background:url("../images/default.png") no-repeat;
+}
+
+
+
+.header .nav{
+    float:left;
+}
+.header .nav li{
+    float: left;
+    width:90px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+}
+.header .nav li a{
+    display:block;
+    text-decoration:none;
+    color:#fff;
+    text-shadow:1px 1px 2px rgba(255,255,255,.5);
+}
+.header .nav li a.current{
+    background:rgba(0,0,0,.2);
+}
+
+
+
+.header .sub-nav{
+    float:left;
+    height:28px;
+    margin:16px 0 0 20px;
+    border-radius:5px;
+    background:rgba(255,255,255,.1);
+    border:1px solid #db6b16;
+}
+.header .sub-nav li{
+    float:left;
+    font-size:14px;
+    width:60px;
+    height:28px;
+    line-height:28px;
+    text-align:center;
+    border-right:1px solid #db6b16;
+}
+.header .sub-nav li a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    text-shadow:1px 1px 2px rgba(255,255,255,.5);
+}
+.header .sub-nav li a:hover{
+    background:rgba(0,0,0,.2);
+}
+
+
+
+
+
+.header .search{
+    float:left;
+    position:relative;
+
+    margin:16px 0 0 20px;
+
+}
+.header .search .ser-txt{
+    height:28px;
+    line-height:28px;
+    padding:0 10px 0 35px;
+    font-size:12px;
+    color:#ccc;
+    border:0;
+    border-radius:3px;
+}
+.header .search .ser-btn{
+    position:absolute;
+    top:0;
+    left:10px;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -5px -45px;
+    border:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header .login-center{
+    float:left;
+    margin:16px 0 0 20px;
+}
+.header .login-center span{
+    float:left;
+    border-radius:4px;
+    height:28px;
+    margin-left:10px;
+    background:rgba(0,0,0,.3);
+
+}
+.header .login-center a{
+    float:left;
+    display:block;
+    height:28px;
+    line-height:28px;
+    padding:0 6px;
+    text-decoration:none;
+    font-size:14px;
+    color:#fff;
+}
+.header .login-center a:hover{
+    background-color:rgba(0,0,0,.2);
+    border-radius:4px;
+}
+.header .login-center .weibo,.header .login-center .qq{
+    display: block;
+    width:17px;
+    height:14px;
+    padding:10px 6px 3px;
+    border-left:1px solid #db6b16;
+    background:url("../images/header_thirdparty_icon.png") no-repeat;
+
+}
+.header .login-center .weibo{
+
+    background-position: -22px 3px;
+}
+.header .login-center .weibo:hover{
+    border-radius:0;
+}
+.header .login-center .qq{
+    background-position: 2px 3px;
+}
+
+
+.sub-header-wrap{
+    width:100%;
+    height:30px;
+    background:#f0f0f0;
+    border-bottom:1px solid #ccc;
+}
+.sub-header{
+    width:1204px;
+    margin:0 auto;
+}
+.sub-header .nav{
+    float: left;
+    margin-left:140px;
+}
+.sub-header .nav a{
+    display:inline-block;
+    height: 30px;
+    line-height:30px;
+    margin-right:30px;
+    font-size:14px;
+    color:#333;
+    text-decoration:none;
+}
+.sub-header .nav a.current,.sub-header .nav a:hover{
+    color:#F60
+}
+
+.sub-header .software,.sub-header .history,.sub-header .vip {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+/*software*/
+.sub-header .software:hover,.sub-header .history:hover,.sub-header .vip:hover{
+    color:#F60;
+    cursor:pointer;
+    /*鼠标状态  小手*/
+}
+.sub-header .software:hover .icon-software{
+    background-position: -48px -72px;
+}
+.sub-header .software .icon-software{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -48px -48px;
+    vertical-align: middle;
+}
+/*history*/
+.sub-header .history:hover .icon-history{
+    background-position: -24px -72px;
+}
+.sub-header .history .icon-history{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -24px -48px;
+    vertical-align: middle;
+}
+/*vip*/
+.sub-header .vip:hover .icon-vip{
+    background-position: -72px -72px;
+}
+.sub-header .vip .icon-vip{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -72px -48px;
+    vertical-align: middle;
+}
+.coloumn{
+    width:1204px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.section{
+    float:left;
+    width:780px;
+}
+.albums{
+    overflow:hidden;
+}
+.albums .album{
+    position:relative;
+    float: left;
+    width:185px;
+    margin:0 10px 20px 0;
+}
+.albums .album .pics{
+    position: relative;
+    width:185px;
+    height:185px;
+}
+.album .pics:hover .mask{
+    display:block;
+}
+.album .pics:hover .icon-play{
+    display:block;
+}
+.album .pics:hover dt{
+    display:block;
+}
+.album .pics img{
+    display:block;
+    width:100%;
+}
+.album .pics .mask{
+    position:absolute;
+    top:0;
+    left:0;
+   display:none;
+    width:185px;
+    height:185px;
+    background:rgba(0,0,0,.5);
+}
+.album .pics .icon-play{
+    position: absolute;
+    bottom:9px;
+    right:7px;
+    display: none;
+    width:24px;
+    height:24px;
+    background:url("../images/play_icon.png") no-repeat 0 -48px;
+}
+.album .pics .icon-play:hover{
+    background-position:-24px -48px;
+    cursor:pointer;
+}
+.album .pics dl:hover dd{
+    display: block;
+}
+.album .pics dt .heart{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    background:url("../images/icon.png") no-repeat -6px -126px;
+}
+.album .pics dt{
+    position: absolute;
+    top:8px;
+    left:9px;
+    display:none;
+    width:30px;
+    height:21px;
+    padding:0 3px 0 6px;
+    background:#fefefe;
+    border-radius:3px;
+}
+.album .pics dt .arrow{
+    display:inline-block;
+    width:8px;
+    height:5px;
+    background:url("../images/icon.png") no-repeat -152px -58px;
+    vertical-align: 3px;
+}
+.album .pics dd{
+    position: absolute;
+    top:8px;
+    left:9px;
+    display:none;
+    width:127px;
+    padding:6px 0;
+    background:#fff;
+    border-radius:3px;
+    font-size:12px;
+    border:1px solid #555;
+}
+.album .pics dd a{
+    display: block;
+    height:37px;
+    line-height:37px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+.album .pics dd a:hover{
+    background:#f5914e;
+    color:#fff;
+}
+.album .pics dd a:hover .icon-favourite{
+    background-position:-6px -151px;
+}
+.album .pics dd .icon-favourite{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    margin:0 10px 0 -13px;
+    background:url("../images/icon.png") no-repeat  -6px -126px;
+    vertical-align: middle;
+}
+.album .pics dd .icon-add{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    margin-right:10px;
+    background:url("../images/icon.png") no-repeat  -30px -126px;
+    vertical-align: middle;
+}
+.album .pics dd a:hover .icon-add{
+    background-position:-30px -150px;
+}
+.album .pics dd .icon-share{
+    display:inline-block;
+    width:14px;
+    height:12px;
+    margin-right:10px;
+    background:url("../images/icon.png") no-repeat  -52px -126px;
+    vertical-align: middle;
+}
+.album .pics dd a:hover .icon-share{
+    background-position:-52px -150px;
+}
+
+.album .info p{
+    width:179px;
+    padding-left:6px;
+    white-space: nowrap;
+    overflow:hidden;
+    height:24px;
+    line-height:24px;
+    color:#999;
+    background:#f5f5f5;
+    font-size:12px;
+
+}
+.album .info p:hover{
+    /*绝对定位会脱离文档流*/
+    position:absolute;
+    top:0;
+    left:0;
+  width:105px;
+  height:169px;
+    padding:40px 40px 0;
+    margin-bottom:24px;
+  background:rgba(0,0,0,.5);
+    cursor: pointer;
+    color: #fff;
+}
+.album .info p button{
+    display:none;
+}
+.album .info p:hover button{
+   display:block;
+    width:102px;
+    height:45px;
+    line-height:45px;
+    margin:20px auto;
+    background:#999;
+    border-radius:5px;
+    text-align:center;
+    font-size:14px;
+    color:#fff;
+    border:0;
+}
+
+.album .info h2{
+    line-height:42px;
+    font-size:16px;
+}
+.album .info h2 a{
+    color:#333;
+    text-decoration:none;
+}
+.album .info h2 a:hover,.album .info span a:hover{
+    text-decoration: underline;
+}
+.album .info span{
+    font-size:12px;
+}
+.album .info span a{
+    color:#999;
+    text-decoration:none;
+}
+.introInfo{
+    width:100%;
+    overflow:hidden;
+}
+.introInfo .intro-top{
+    height:30px;
+    line-height:30px;
+    border-top:1px solid #ccc;
+}
+.introInfo .intro-top h2{
+float:left;
+}
+.introInfo .intro-top h2 a{
+    text-decoration:none;
+    font-size:12px;
+    color:#333;
+}
+.introInfo .intro-top h2 a.name{
+    color:#999;
+}
+.introInfo .intro-top p{
+    float:right;
+    width:270px;
+    margin-right:30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:12px;
+    color:#999;
+}
+.introInfo .intro-top .time{
+    float:right;
+    font-size:12px;
+    color:#999
+}
+.introInfo:hover .intro-top{
+    display:none;
+
+}
+.introInfo:hover .intro-bottom{
+    display:block;
+    background:#f5f5f5;
+    border-top:1px solid #ccc;
+    cursor:pointer;
+}
+.introInfo .intro-bottom{
+ display:none;
+    height:140px;
+}
+
+
+
+
+
+
+
+
+.sidebar{
+    float:right;
+    width:302px;
+    height: 500px;
+    background:red;
+}
+
+

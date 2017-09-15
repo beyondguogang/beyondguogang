@@ -1,0 +1,75 @@
+.sub-header-wrap{
+    width:100%;
+    height:30px;
+    background:#f0f0f0;
+    border-bottom:1px solid #ccc;
+}
+.sub-header{
+    width:1204px;
+    margin:0 auto;
+}
+.sub-header .nav{
+    float: left;
+    padding-left:150px;
+}
+.sub-header .nav a{
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    margin-right:30px;
+    font-size:14px;
+    color:#333;
+    text-decoration:none;
+}
+.sub-header .nav a:hover,.sub-header .nav a.current{
+    color:#F60;
+}
+/*software*/
+.sub-header .software,.sub-header .history,.sub-header .vip{
+    float:right;
+    height:30px;
+    line-height:30px;
+    margin-left:30px;
+    font-size:12px;
+    color:#333;
+    font-weight:bold;
+}
+.sub-header .software:hover,.sub-header .history:hover,.sub-header .vip:hover{
+    color:#F60;
+    cursor:pointer;
+}
+.sub-header .software:hover .icon-software{
+    background-position:-48px -72px;
+}
+.sub-header .software .icon-software{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -48px -48px;
+    vertical-align: middle;
+}
+/*history*/
+
+.sub-header .history:hover .icon-history{
+    background-position:-24px -72px;
+}
+.sub-header .history .icon-history{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -24px -48px;
+    vertical-align: middle;
+}
+
+/*vip */
+
+.sub-header .vip:hover .icon-vip{
+    background-position:-72px -72px;
+}
+.sub-header .vip .icon-vip{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background:url("../images/header_icon.png") no-repeat -72px -48px;
+    vertical-align: middle;
+}
